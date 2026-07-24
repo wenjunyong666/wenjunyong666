@@ -35,6 +35,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 
 `2026.02 — 2026.06` · 智能硬件 / 机器人设备端
 
+<p>
+  <img src="https://img.shields.io/badge/ESP32--S3-1F2937?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3" />
+  <img src="https://img.shields.io/badge/ESP--IDF-0F4C5C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP-IDF" />
+  <img src="https://img.shields.io/badge/FreeRTOS-14532D?style=for-the-badge&logo=freertos&logoColor=white" alt="FreeRTOS" />
+  <img src="https://img.shields.io/badge/BLE-1E3A8A?style=for-the-badge&logo=bluetooth&logoColor=white" alt="BLE" />
+  <img src="https://img.shields.io/badge/LVGL-713F12?style=for-the-badge&logo=lvgl&logoColor=white" alt="LVGL" />
+</p>
+
 - 面向 ESP32-S3 智能硬件开展设备端开发，使用 **ESP-IDF、FreeRTOS、BLE、LVGL** 完成功能实现、编译烧录与整机联调。
 - 负责 BLE 协议链路落地，实现数据帧解析、CRC 校验和接收缓存；针对长指令被拆成多次写入的问题增加分片重组，解决半帧误解析与指令丢失。
 - 实现协议驱动的设备显示能力，支持二维码、静态图片、动图叠加和状态栏等显示模式，并处理协议资源名与设备资源不一致的问题。
@@ -43,6 +51,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 ### 图灵智新 · 机器人开发暑期实习生
 
 `2026.07 — 2026.08` · 机器人开发 / 暑期实习
+
+<p>
+  <img src="https://img.shields.io/badge/Ginger_机器人-334155?style=for-the-badge" alt="Ginger 机器人" />
+  <img src="https://img.shields.io/badge/Jetson-14532D?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson" />
+  <img src="https://img.shields.io/badge/ROS2-172554?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
+  <img src="https://img.shields.io/badge/FAST--LIO2_/_LIO--SAM-4C1D95?style=for-the-badge" alt="FAST-LIO2 与 LIO-SAM" />
+  <img src="https://img.shields.io/badge/Nav2_/_3DGS-7C2D12?style=for-the-badge" alt="Nav2 与 3DGS" />
+</p>
 
 - 参与 Ginger 机器人本地化二次开发，梳理 **PC -> Jetson -> 机器人** 三端通信链路、原生能力接口和部署运行顺序。
 - 开展机器人原生能力监听、历史指令取证与链路实测，采用“只读优先、安全验证、智能规划与真实执行解耦”的方式控制调试风险。
