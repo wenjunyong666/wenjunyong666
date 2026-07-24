@@ -98,7 +98,7 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 ## GitHub Contributions
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=wenjunyong666&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22C55E&icon_color=F59E0B&text_color=C9D1D9&ring_color=0E7490&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wenjunyong666&theme=github_dark" alt="GitHub Stats" />
   <img width="49%" src="https://streak-stats.demolab.com?user=wenjunyong666&theme=tokyonight&hide_border=true&background=0D1117&ring=22C55E&fire=F59E0B&currStreakLabel=22C55E" alt="GitHub Streak" />
 </div>
 
