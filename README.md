@@ -35,18 +35,19 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 
 `2026.02 — 2026.06` · 智能硬件 / 机器人设备端
 
-- 参与智能硬件设备端开发，围绕 **ESP32-S3、ESP-IDF、FreeRTOS、BLE、LVGL** 完成设备功能实现与联调。
-- 重点负责蓝牙协议链路：处理数据帧解析、校验、长包分片重组，以及设备状态/图片显示类指令的接收与响应。
-- 参与显示页面、设备交互和外围执行功能的嵌入式实现，定位协议不一致、资源缺失、串口烧录和显示生命周期等问题。
-- 与上层应用、硬件和测试协作，把“协议定义”落实成可观察、可复现、可验证的设备行为。
-
-> 公司项目不在这里挂仓库链接；主页只展示可公开的个人项目和通用工程能力。
+- 面向 ESP32-S3 智能硬件开展设备端开发，使用 **ESP-IDF、FreeRTOS、BLE、LVGL** 完成功能实现、编译烧录与整机联调。
+- 负责 BLE 协议链路落地，实现数据帧解析、CRC 校验和接收缓存；针对长指令被拆成多次写入的问题增加分片重组，解决半帧误解析与指令丢失。
+- 实现协议驱动的设备显示能力，支持二维码、静态图片、动图叠加和状态栏等显示模式，并处理协议资源名与设备资源不一致的问题。
+- 通过串口日志和测试帧定位显示页面切换、资源生命周期与硬件执行异常，沉淀可复现步骤、验证记录和排障文档，提升跨端联调效率。
 
 ### 图灵智新 · 机器人开发暑期实习生
 
 `2026.07 — 2026.08` · 机器人开发 / 暑期实习
 
-目前先记录岗位与实习时间，具体参与模块、使用技术、个人负责内容和项目成果待后续补充。
+- 参与 Ginger 机器人本地化二次开发，梳理 **PC -> Jetson -> 机器人** 三端通信链路、原生能力接口和部署运行顺序。
+- 开展机器人原生能力监听、历史指令取证与链路实测，采用“只读优先、安全验证、智能规划与真实执行解耦”的方式控制调试风险。
+- 围绕移动机器人导航建图与定位开展技术选型，整理 **FAST-LIO2、LIO-SAM、ICP、Nav2、3DGS** 与 LiDAR、IMU、RTK、Jetson 平台的适配关系。
+- 整理部署脚本、运行说明、链路检查和验证证据，使研发方案具备可复现的部署与交付路径。
 
 ## 六个代表项目
 
@@ -216,6 +217,24 @@ timeline
   <img src="https://img.shields.io/badge/2025_全国大学生电子设计大赛-广东省二等奖-0E7490?style=for-the-badge" alt="电赛广东省二等奖" />
   <img src="https://img.shields.io/badge/2026_大唐杯-广东省三等奖-22C55E?style=for-the-badge" alt="大唐杯广东省三等奖" />
 </div>
+
+## 实习与荣誉证明
+
+<div align="center">
+  <a href="https://github.com/wenjunyong666/wenjunyong666/tree/main/evidence/internships"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%AE%9E%E4%B9%A0%E8%AF%81%E6%98%8E-0E7490?style=for-the-badge&logo=files&logoColor=white" alt="查看实习证明" /></a>
+  <a href="https://github.com/wenjunyong666/wenjunyong666/tree/main/evidence/awards"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E8%8E%B7%E5%A5%96%E8%AF%81%E6%98%8E-F59E0B?style=for-the-badge&logo=files&logoColor=white" alt="查看获奖证明" /></a>
+</div>
+
+<details>
+  <summary><strong>本人上传入口</strong></summary>
+  <br />
+  <p>
+    <a href="https://github.com/wenjunyong666/wenjunyong666/upload/main/evidence/internships">上传实习证明</a>
+    ·
+    <a href="https://github.com/wenjunyong666/wenjunyong666/upload/main/evidence/awards">上传奖状或获奖证书</a>
+  </p>
+  <p>上传与修改由 GitHub 仓库写权限控制，访客只能浏览公开材料。</p>
+</details>
 
 ## 贡献轨迹
 
