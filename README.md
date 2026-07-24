@@ -64,8 +64,8 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" alt="Embedded C" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/wuliuxiaoche">工创物流小车</a></h3>
       <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="物流小车最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="物流小车主要语言" /></p>
-      <p>STM32F750 · FreeRTOS · Jetson Nano · OpenCV</p>
-      <p>负责整车控制、麦克纳姆轮解算、IMU 姿态修正、视觉闭环对位以及升降与舵机机构联调。</p>
+      <p>STM32F750 · FreeRTOS · NanoPi RK3576 · RKNN</p>
+      <p>负责整车控制、16 阶段同源执行、麦克纳姆轮/IMU 闭环、双摄像头视觉桥接以及升降、旋转、齿条和舵机机构联调。</p>
     </td>
   </tr>
   <tr>
