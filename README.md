@@ -56,12 +56,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS2" /></p>
       <h3 align="center"><a href="https://github.com/HalloYang06/PSOC_E84_robot">医疗康复机械臂及外骨骼</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/HalloYang06/PSOC_E84_robot?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="康复机械臂最近更新" /> <img src="https://img.shields.io/github/languages/top/HalloYang06/PSOC_E84_robot?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="康复机械臂主要语言" /></p>
       <p>ROS2 · CAN · PSoC · NanoPi · MuJoCo · VLA</p>
       <p>围绕康复机械臂建立分层架构，梳理真实运动安全链路、仿真验证、状态桥接和上层指令门控。</p>
     </td>
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" alt="Embedded C" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/wuliuxiaoche">工创物流小车</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="物流小车最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="物流小车主要语言" /></p>
       <p>STM32F750 · FreeRTOS · Jetson Nano · OpenCV</p>
       <p>负责整车控制、麦克纳姆轮解算、IMU 姿态修正、视觉闭环对位以及升降与舵机机构联调。</p>
     </td>
@@ -70,12 +72,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="AI collaboration" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/ai-">AI 合作平台</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/ai-?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="AI 合作平台最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/ai-?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="AI 合作平台主要语言" /></p>
       <p>多智能体 · 任务编排 · 执行器 · 网页与服务器部署</p>
       <p>独立设计“项目 -> 工位 -> NPC -> 线程 -> Runner”协作模型、可视化工作台和安全执行边界。</p>
     </td>
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C control system" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/25diansai">2025 电赛自动瞄准装置</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/25diansai?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="电赛装置最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/25diansai?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="电赛装置主要语言" /></p>
       <p>STM32F407 · MaixCam · PID · IMU · 编码器</p>
       <p>运动控制负责人；实现视觉坐标到双轴云台的闭环控制和小车多环控制，获广东省二等奖。</p>
     </td>
@@ -84,12 +88,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" alt="ESP32 embedded" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/humidifier_freertos">物联网智能加湿器</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/humidifier_freertos?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="智能加湿器最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/humidifier_freertos?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="智能加湿器主要语言" /></p>
       <p>ESP32-S3 · FreeRTOS · MQTTS · OneNet · OLED</p>
       <p>双核任务组织、设备物模型、远程控制、本地交互和目标湿度回差控制。</p>
     </td>
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/quanjinhuiyishexiangtou">全景会议摄像头</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/quanjinhuiyishexiangtou?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="全景摄像头最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/quanjinhuiyishexiangtou?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="全景摄像头主要语言" /></p>
       <p>FPGA · OV5640 · UDP-RGMII · OpenCV · SIFT</p>
       <p>负责多摄像头畸变校准、视角对齐和拼接融合，并参与 FPGA 图传与上位机组帧联调。</p>
     </td>
@@ -118,37 +124,23 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 | 能力层 | 我能处理的内容 | 对应项目 |
 |---|---|---|
 | 感知与输入 | 相机、IMU、编码器、温湿度、水位、EMG 等传感器接入 | 物流小车 / 电赛装置 / 加湿器 / 康复机械臂 |
-| 协议与通信 | BLE、CAN、UART/DMA、TCP、UDP、MQTT、USB CDC | 途道实习 / 康复机械臂 / 无人机相关工程经验 |
+| 协议与通信 | BLE、CAN、UART/DMA、TCP、UDP、MQTT | 途道实习 / 康复机械臂 / 加湿器 / 全景摄像头 |
 | 控制与执行 | PID、多环控制、状态机、轨迹约束、步进电机、舵机、底盘 | 物流小车 / 电赛装置 / 康复机械臂 |
 | 系统与验证 | FreeRTOS 任务、ROS2 桥接、日志、仿真、远程调参、故障复现 | 六个代表项目与实习经历 |
 
 ## 从传感器到机器人动作
 
-```text
-相机 / IMU / 编码器 / BLE
-            ↓
-驱动层与协议层：采集、校验、缓存、分片重组
-            ↓
-任务层：FreeRTOS / ROS2 / 状态机 / 日志
-            ↓
-控制层：PID / 轨迹约束 / 安全限幅 / 参数整定
-            ↓
-执行层：电机 / 舵机 / 云台 / 机械臂 / 底盘
-            ↖──────── 网页监控、仿真验证、远程调参
+```mermaid
+flowchart LR
+    A[相机 / IMU / 编码器 / BLE] --> B[驱动与协议层<br/>采集 · 校验 · 缓存 · 分片重组]
+    B --> C[任务与系统层<br/>FreeRTOS · ROS2 · 状态机]
+    C --> D[控制与安全层<br/>PID · 轨迹约束 · 安全限幅]
+    D --> E[执行机构<br/>电机 · 舵机 · 云台 · 机械臂 · 底盘]
+    E --> F[状态反馈与日志]
+    F --> B
+    G[网页监控 · 仿真验证 · 远程调参] -.-> C
+    G -.-> D
 ```
-
-## 项目实物与系统图
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/HalloYang06/PSOC_E84_robot"><img src="assets/rehab-system-flow.png" width="100%" alt="康复机械臂系统架构" /></a><br /><strong>康复机械臂：安全运动链路</strong></td>
-    <td width="50%" valign="top"><a href="https://github.com/wenjunyong666/25diansai"><img src="assets/diansai-device.jpg" width="100%" alt="电赛自动瞄准装置" /></a><br /><strong>电赛装置：视觉闭环与运动控制</strong></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/wenjunyong666/quanjinhuiyishexiangtou"><img src="assets/panoramic-camera.jpg" width="100%" alt="全景会议摄像头" /></a><br /><strong>全景摄像头：FPGA 图传与拼接</strong></td>
-    <td width="50%" valign="top"><a href="https://github.com/wenjunyong666/ai-"><img src="assets/ai-platform-home.png" width="100%" alt="AI 合作平台工作台" /></a><br /><strong>AI 合作平台：项目与任务工作台</strong></td>
-  </tr>
-</table>
 
 ## 开源贡献与代码统计
 
@@ -172,42 +164,25 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 
 > 统计卡片根据公开仓库动态生成；私有仓库贡献是否展示取决于 GitHub 个人资料的隐私设置。
 
-### 公开贡献快照 · 2026-07-24
-
-<div align="center">
-  <img src="https://img.shields.io/badge/公开主页累计贡献-1%2C392-0E7490?style=for-the-badge" alt="公开主页累计贡献 1392" />
-  <img src="https://img.shields.io/badge/统计_commits-1.4k-22C55E?style=for-the-badge" alt="统计 commits 1.4k" />
-  <img src="https://img.shields.io/badge/公开仓库-8-F59E0B?style=for-the-badge" alt="8 个公开仓库" />
-  <img src="https://img.shields.io/badge/最长连续贡献-12_天-7C3AED?style=for-the-badge" alt="最长连续贡献 12 天" />
-</div>
-
-这组数字取自公开 GitHub 主页和公开统计卡片，是一个时间快照，不把不可见的私有仓库名称或未公开贡献强行归因到某个项目。更重要的是，可以从下面的时间线看到代码活动对应的工程主题变化。
-
-### 工程贡献时间线
-
-| 时间 | 公开记录 | 工程主题 | 代表性输出 |
-|---|---|---|---|
-| `2025.03` | 建立最早一批公开仓库 | 从课程与练习开始使用版本管理 | `task`、`my-first-task` |
-| `2025.05` | `pinghengxiaoche` 更新 | 进入 STM32F407 姿态与运动控制 | 平衡小车闭环控制 |
-| `2025.07` | 电赛项目阶段 | 二维舵机云台、小车运动和现场参数收敛 | VOFA+ + 蓝牙远程调参 |
-| `2026.02` | `daotuproject` 更新 | 补全底层知识与工程表达 | 汇编 / 课程工程整理 |
-| `2026.04` | `TriLink-Drone-Control-System`、`keshe` 更新 | 从单板控制扩展到多端通信和系统协同 | 遥控器、地面站、设备端 |
-| `2026.06` | 个人项目集中整理 | 视觉、物联网、AI 协作与机器人项目并行推进 | 作品集工程链路 |
-| `2026.07` | `PSOC_E84_robot` 与相关工程持续推进 | 从功能实现走向安全边界、验证证据和现场降级 | ROS2/CAN、MuJoCo、RK3576、双核 SMIF/XIP |
+### 工程成长轨迹
 
 ```mermaid
 timeline
-    title 从单板控制到机器人系统工程
-    2025.03 : GitHub 公开记录开始
-             : 课程工程与版本管理
-    2025.05 : STM32F407 平衡小车
-             : 姿态与运动控制
+    title 机器人嵌入式成长轨迹
     2025.07 : 电赛自动瞄准装置
-             : 二维舵机云台与远程调参
-    2026.04 : 多端通信与设备协同
-             : 无人机 / 地面站相关工程
-    2026.07 : 康复机械臂统一工程
-             : ROS2 / CAN / MuJoCo / 安全验证
+             : 双轴云台闭环与现场调参
+             : 全景会议摄像头
+             : FPGA 图传与图像拼接
+    2025.10 : 物联网智能加湿器
+             : ESP32-S3 / FreeRTOS / MQTT
+    2026.02 : AI 合作平台
+             : 多智能体任务编排与安全执行
+             : 康复机械臂
+             : ROS2 / CAN / MuJoCo 安全验证
+    2026.06 : 途道智能硬件实习
+             : BLE 协议与设备端联调
+    2026.07 : 图灵智新机器人实习
+             : Ginger 三端链路与导航算法选型
 ```
 
 ## 竞赛与荣誉
