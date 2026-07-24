@@ -171,6 +171,44 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 
 > 统计卡片根据公开仓库动态生成；私有仓库贡献是否展示取决于 GitHub 个人资料的隐私设置。
 
+### 公开贡献快照 · 2026-07-24
+
+<div align="center">
+  <img src="https://img.shields.io/badge/公开主页累计贡献-1%2C392-0E7490?style=for-the-badge" alt="公开主页累计贡献 1392" />
+  <img src="https://img.shields.io/badge/统计_commits-1.4k-22C55E?style=for-the-badge" alt="统计 commits 1.4k" />
+  <img src="https://img.shields.io/badge/公开仓库-8-F59E0B?style=for-the-badge" alt="8 个公开仓库" />
+  <img src="https://img.shields.io/badge/最长连续贡献-12_天-7C3AED?style=for-the-badge" alt="最长连续贡献 12 天" />
+</div>
+
+这组数字取自公开 GitHub 主页和公开统计卡片，是一个时间快照，不把不可见的私有仓库名称或未公开贡献强行归因到某个项目。更重要的是，可以从下面的时间线看到代码活动对应的工程主题变化。
+
+### 工程贡献时间线
+
+| 时间 | 公开记录 | 工程主题 | 代表性输出 |
+|---|---|---|---|
+| `2025.03` | 建立最早一批公开仓库 | 从课程与练习开始使用版本管理 | `task`、`my-first-task` |
+| `2025.05` | `pinghengxiaoche` 更新 | 进入 STM32F407 姿态与运动控制 | 平衡小车闭环控制 |
+| `2025.07` | 电赛项目阶段 | 二维舵机云台、小车运动和现场参数收敛 | VOFA+ + 蓝牙远程调参 |
+| `2026.02` | `daotuproject` 更新 | 补全底层知识与工程表达 | 汇编 / 课程工程整理 |
+| `2026.04` | `TriLink-Drone-Control-System`、`keshe` 更新 | 从单板控制扩展到多端通信和系统协同 | 遥控器、地面站、设备端 |
+| `2026.06` | 个人项目集中整理 | 视觉、物联网、AI 协作与机器人项目并行推进 | 作品集工程链路 |
+| `2026.07` | `PSOC_E84_robot` 与相关工程持续推进 | 从功能实现走向安全边界、验证证据和现场降级 | ROS2/CAN、MuJoCo、RK3576、双核 SMIF/XIP |
+
+```mermaid
+timeline
+    title 从单板控制到机器人系统工程
+    2025.03 : GitHub 公开记录开始
+             : 课程工程与版本管理
+    2025.05 : STM32F407 平衡小车
+             : 姿态与运动控制
+    2025.07 : 电赛自动瞄准装置
+             : 二维舵机云台与远程调参
+    2026.04 : 多端通信与设备协同
+             : 无人机 / 地面站相关工程
+    2026.07 : 康复机械臂统一工程
+             : ROS2 / CAN / MuJoCo / 安全验证
+```
+
 ## 竞赛与荣誉
 
 <div align="center">
