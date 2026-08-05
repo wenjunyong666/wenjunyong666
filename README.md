@@ -65,7 +65,7 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 - 围绕移动机器人导航建图与定位开展技术选型，整理 **FAST-LIO2、LIO-SAM、ICP、Nav2、3DGS** 与 LiDAR、IMU、RTK、Jetson 平台的适配关系。
 - 整理部署脚本、运行说明、链路检查和验证证据，使研发方案具备可复现的部署与交付路径。
 
-## 六个代表项目
+## 七个代表项目
 
 <table>
   <tr>
@@ -116,6 +116,15 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
       <p>负责多摄像头畸变校准、视角对齐和拼接融合，并参与 FPGA 图传与上位机组帧联调。</p>
     </td>
   </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" alt="Embedded control" /></p>
+      <h3 align="center"><a href="https://github.com/HalloYang06/2026_TI">2026 电赛 H 题车载滚球平衡系统</a></h3>
+      <p align="center"><img src="https://img.shields.io/github/last-commit/HalloYang06/2026_TI?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="2026 电赛项目最近更新" /> <img src="https://img.shields.io/badge/%E6%B5%8B%E8%AF%84%E7%BB%93%E6%9E%9C-%E6%9C%AA%E8%8E%B7%E5%A5%96%C2%B7%E4%BE%9B%E7%94%B5%E5%A4%8D%E7%9B%98-A7432D?style=flat-square" alt="测评未获奖，进行供电复盘" /></p>
+      <p align="center">MSPM0G3507 · Infineon EdgeTalk M33/M55 · Raspberry Pi · RS00 · CAN · LQG/LQI</p>
+      <p>参与完成三板车载滚球系统，重点推进压力仿真、双核 IPC、RS00 安全门、任务 CAN、Q1–Q6 状态机、MSPM0 确定性调度与 IMU 队列/栈问题修复。项目完整完赛，但正式测评现场因电源供电不稳定未获奖；赛后将问题转化为母线压降监测、控制/动力分域、最坏负载测试和现场检查清单。</p>
+    </td>
+  </tr>
 </table>
 
 ## 机器人嵌入式能力图谱
@@ -139,10 +148,10 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 
 | 能力层 | 我能处理的内容 | 对应项目 |
 |---|---|---|
-| 感知与输入 | 相机、IMU、编码器、温湿度、水位、EMG 等传感器接入 | 物流小车 / 电赛装置 / 加湿器 / 康复机械臂 |
-| 协议与通信 | BLE、CAN、UART/DMA、TCP、UDP、MQTT | 途道实习 / 康复机械臂 / 加湿器 / 全景摄像头 |
-| 控制与执行 | PID、多环控制、状态机、轨迹约束、步进电机、舵机、底盘 | 物流小车 / 电赛装置 / 康复机械臂 |
-| 系统与验证 | FreeRTOS 任务、ROS2 桥接、日志、仿真、远程调参、故障复现 | 六个代表项目与实习经历 |
+| 感知与输入 | 相机、IMU、编码器、温湿度、水位、EMG 等传感器接入 | 物流小车 / 2025、2026 电赛 / 加湿器 / 康复机械臂 |
+| 协议与通信 | BLE、CAN、UART/DMA、TCP、UDP、MQTT | 途道实习 / 2026 电赛 / 康复机械臂 / 加湿器 / 全景摄像头 |
+| 控制与执行 | PID、LQG/LQI、多环控制、状态机、安全门、步进电机、舵机、底盘 | 物流小车 / 2025、2026 电赛 / 康复机械臂 |
+| 系统与验证 | FreeRTOS、双核 IPC、ROS2 桥接、日志、仿真、故障复现 | 七个代表项目与实习经历 |
 
 ## 从传感器到机器人动作
 
@@ -199,7 +208,16 @@ timeline
              : BLE 协议与设备端联调
     2026.07 : 图灵智新机器人实习
              : Ginger 三端链路与导航算法选型
+    2026.08 : 2026 电赛 H 题车载滚球系统
+             : 三板协同 / 双核 IPC / LQG-LQI / 安全门
+             : 完整完赛，测评因供电不稳未获奖并形成工程复盘
 ```
+
+## 一次真实的失败复盘
+
+2026 电赛 H 题作品完整完成，但正式测评时出现电源供电不稳定，最终未获奖。我不会把仿真指标、代码提交或“完整完赛”包装成获奖结果。这次经历让我把 **供电完整性** 提升到与控制算法、通信协议和安全门同等重要的位置：关键母线要能采样和记录，逻辑与动力要分域评估，整机必须按最坏负载做动态压降、冷启动、热启动和线束接触回归。
+
+这段经历对应的公开证据与代码：[`HalloYang06/2026_TI`](https://github.com/HalloYang06/2026_TI)。
 
 ## 竞赛与荣誉
 
