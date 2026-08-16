@@ -55,15 +55,15 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 <p>
   <img src="https://img.shields.io/badge/Ginger_机器人-334155?style=for-the-badge" alt="Ginger 机器人" />
   <img src="https://img.shields.io/badge/Jetson-14532D?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson" />
-  <img src="https://img.shields.io/badge/ROS2-172554?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
-  <img src="https://img.shields.io/badge/FAST--LIO2_/_LIO--SAM-4C1D95?style=for-the-badge" alt="FAST-LIO2 与 LIO-SAM" />
-  <img src="https://img.shields.io/badge/Nav2_/_3DGS-7C2D12?style=for-the-badge" alt="Nav2 与 3DGS" />
+  <img src="https://img.shields.io/badge/ROS1_/_ROS2-172554?style=for-the-badge&logo=ros&logoColor=white" alt="ROS1 与 ROS2" />
+  <img src="https://img.shields.io/badge/HTTP_/_ROS_Gateway-4C1D95?style=for-the-badge" alt="HTTP 与 ROS Gateway" />
+  <img src="https://img.shields.io/badge/LiDAR_/_Cartographer-7C2D12?style=for-the-badge" alt="LiDAR 与 Cartographer" />
 </p>
 
-- 参与 Ginger 机器人本地化二次开发，梳理 **PC -> Jetson -> 机器人** 三端通信链路、原生能力接口和部署运行顺序。
-- 开展机器人原生能力监听、历史指令取证与链路实测，采用“只读优先、安全验证、智能规划与真实执行解耦”的方式控制调试风险。
-- 围绕移动机器人导航建图与定位开展技术选型，整理 **FAST-LIO2、LIO-SAM、ICP、Nav2、3DGS** 与 LiDAR、IMU、RTK、Jetson 平台的适配关系。
-- 整理部署脚本、运行说明、链路检查和验证证据，使研发方案具备可复现的部署与交付路径。
+- 完成 Jetson 的 **CUDA 12.6 / TensorRT 10.3、Docker NVIDIA Runtime、ROS2** 基线配置，打通 **PC -> Jetson -> Ginger** 三段链路，并用 health、state、odom 回读完成验收。
+- 梳理 **HTTP -> ROS -> controller -> joint_states** 控制链；现场完成头部 `0.15 rad` 转动回中、右肩 `0.60 rad` 分段归零，以接口响应、subscriber 和关节回读形成闭环证据。
+- 定位 Patrol3 Gateway 在 ROS Master 未就绪时启动导致订阅丢失的问题，并将 `50 ms` 控制回调中的 `1.2~1.7 s` 阻塞服务改为 `2 Hz` 异步缓存，恢复约 `20 Hz` 速度话题。
+- 为 NCU 控制页接入实时位姿、map 坐标对齐与 global_path 路线叠加，补充请求互斥、超时、执行日志和软件急停；区分“接口返回”与“机器人真实执行”。
 
 ## 七个代表项目
 
