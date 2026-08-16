@@ -39,31 +39,31 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
   <img src="https://img.shields.io/badge/ESP32--S3-1F2937?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3" />
   <img src="https://img.shields.io/badge/ESP--IDF-0F4C5C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP-IDF" />
   <img src="https://img.shields.io/badge/FreeRTOS-14532D?style=for-the-badge&logo=freertos&logoColor=white" alt="FreeRTOS" />
+  <img src="https://img.shields.io/badge/%E4%BA%8C%E7%BB%B4%E4%BA%91%E5%8F%B0-%E4%BA%BA%E8%84%B8_%2F_%E5%A3%B0%E6%BA%90%E8%BF%BD%E8%B8%AA-B45309?style=for-the-badge" alt="二维云台人脸与声源追踪" />
+  <img src="https://img.shields.io/badge/OpenClaw-K230-7C3AED?style=for-the-badge" alt="OpenClaw 与 K230" />
   <img src="https://img.shields.io/badge/BLE-1E3A8A?style=for-the-badge&logo=bluetooth&logoColor=white" alt="BLE" />
   <img src="https://img.shields.io/badge/LVGL-713F12?style=for-the-badge&logo=lvgl&logoColor=white" alt="LVGL" />
 </p>
 
-- 面向 ESP32-S3 智能硬件开展设备端开发，使用 **ESP-IDF、FreeRTOS、BLE、LVGL** 完成功能实现、编译烧录与整机联调。
-- 负责 BLE 协议链路落地，实现数据帧解析、CRC 校验和接收缓存；针对长指令被拆成多次写入的问题增加分片重组，解决半帧误解析与指令丢失。
-- 实现协议驱动的设备显示能力，支持二维码、静态图片、动图叠加和状态栏等显示模式，并处理协议资源名与设备资源不一致的问题。
-- 通过串口日志和测试帧定位显示页面切换、资源生命周期与硬件执行异常，沉淀可复现步骤、验证记录和排障文档，提升跨端联调效率。
+- **桌面宠物：** 负责二维电机云台运动控制，接入摄像头人脸坐标与三方向麦克风声源方向，完成输入到水平 / 俯仰目标的映射；设计“人脸优先、无人脸再追踪声源”的仲裁和失目标切换逻辑。
+- **Agent 落地：** 将 OpenClaw 部署到宠物机器人，打通 ESP32-S3 HTTP 服务、千问调用与舵机 / LCD 工具；另在 K230 上完成 OpenClaw 与摄像头识别结果的接入，使 AI 能基于视觉信息参与交互。
+- **AI Pet 联调：** 实现 BLE GATT 自定义帧、CRC 与跨 Write 长帧重组，并将二维码、静态图、GIF 等命令接入 LVGL，处理资源映射、页面切换和对象生命周期问题。
 
-### 图灵智新 · 机器人开发暑期实习生
+### 图灵智新 · 机器人二次开发暑期实习生
 
 `2026.07 — 2026.08` · 机器人开发 / 暑期实习
 
 <p>
-  <img src="https://img.shields.io/badge/Ginger_机器人-334155?style=for-the-badge" alt="Ginger 机器人" />
+  <img src="https://img.shields.io/badge/Data_/_Ginger_机器人-334155?style=for-the-badge" alt="Data 与 Ginger 机器人" />
+  <img src="https://img.shields.io/badge/Patrol3_无人车-9A3412?style=for-the-badge" alt="Patrol3 无人车" />
   <img src="https://img.shields.io/badge/Jetson-14532D?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson" />
   <img src="https://img.shields.io/badge/ROS1_/_ROS2-172554?style=for-the-badge&logo=ros&logoColor=white" alt="ROS1 与 ROS2" />
   <img src="https://img.shields.io/badge/HTTP_/_ROS_Gateway-4C1D95?style=for-the-badge" alt="HTTP 与 ROS Gateway" />
   <img src="https://img.shields.io/badge/LiDAR_/_Cartographer-7C2D12?style=for-the-badge" alt="LiDAR 与 Cartographer" />
 </p>
 
-- 完成 Jetson 的 **CUDA 12.6 / TensorRT 10.3、Docker NVIDIA Runtime、ROS2** 基线配置，打通 **PC -> Jetson -> Ginger** 三段链路，并用 health、state、odom 回读完成验收。
-- 梳理 **HTTP -> ROS -> controller -> joint_states** 控制链；现场完成头部 `0.15 rad` 转动回中、右肩 `0.60 rad` 分段归零，以接口响应、subscriber 和关节回读形成闭环证据。
-- 定位 Patrol3 Gateway 在 ROS Master 未就绪时启动导致订阅丢失的问题，并将 `50 ms` 控制回调中的 `1.2~1.7 s` 阻塞服务改为 `2 Hz` 异步缓存，恢复约 `20 Hz` 速度话题。
-- 为 NCU 控制页接入实时位姿、map 坐标对齐与 global_path 路线叠加，补充请求互斥、超时、执行日志和软件急停；区分“接口返回”与“机器人真实执行”。
+- **Data / Ginger 机器人：** 负责计算平台、原生接口、执行与感知设备的整机接入，打通感知输入、状态回读和动作执行链路，使机器人本体与视觉、语音、VLA 服务协同工作。
+- **Patrol3 无人车：** 负责车载 NCU、ROS1 与 Gateway 导航链路联调，整合地图定位、目标下发、路径跟踪、实时位姿和软件急停，形成地图交互到路径、位姿与安全状态回传的软件闭环，并沉淀部署与验证流程。
 
 ## 七个代表项目
 
@@ -74,14 +74,14 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
       <h3 align="center"><a href="https://github.com/HalloYang06/PSOC_E84_robot">医疗康复机械臂及外骨骼</a></h3>
       <p align="center"><img src="https://img.shields.io/github/last-commit/HalloYang06/PSOC_E84_robot?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="康复机械臂最近更新" /> <img src="https://img.shields.io/github/languages/top/HalloYang06/PSOC_E84_robot?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="康复机械臂主要语言" /></p>
       <p>ROS2 · CAN · PSoC · NanoPi · MuJoCo · VLA</p>
-      <p>围绕康复机械臂建立分层架构，梳理真实运动安全链路、仿真验证、状态桥接和上层指令门控。</p>
+      <p>打通传感节点、PSoC 双核、CAN 多电机、ROS2 / App / Web 与 MuJoCo，形成从感知输入到安全执行的系统原型，并支持 EMG、视觉和 VLA 扩展。</p>
     </td>
     <td width="50%" valign="top">
       <p align="center"><img width="54" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" alt="Embedded C" /></p>
       <h3 align="center"><a href="https://github.com/wenjunyong666/wuliuxiaoche">工创物流小车</a></h3>
       <p align="center"><img src="https://img.shields.io/github/last-commit/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&color=0E7490" alt="物流小车最近更新" /> <img src="https://img.shields.io/github/languages/top/wenjunyong666/wuliuxiaoche?style=flat-square&label=%E4%B8%BB%E8%A6%81%E8%AF%AD%E8%A8%80&color=22C55E" alt="物流小车主要语言" /></p>
       <p>STM32F750 · FreeRTOS · NanoPi RK3576 · RKNN</p>
-      <p>负责整车控制、16 阶段同源执行、麦克纳姆轮/IMU 闭环、双摄像头视觉桥接以及升降、旋转、齿条和舵机机构联调。</p>
+      <p>将 STM32、NanoPi 双摄视觉、底盘与多执行机构串成统一任务链，完成任务识别、车辆对位、物料取放、加工到返航的整车自动作业闭环。</p>
     </td>
   </tr>
   <tr>
@@ -205,9 +205,11 @@ timeline
              : 康复机械臂
              : ROS2 / CAN / MuJoCo 安全验证
     2026.06 : 途道智能硬件实习
-             : BLE 协议与设备端联调
+             : 二维云台人脸 / 声源追踪
+             : OpenClaw 落地与 BLE 设备端联调
     2026.07 : 图灵智新机器人实习
-             : Ginger 三端链路与导航算法选型
+             : Data / Ginger 机器人二次开发
+             : Patrol NCU Gateway 与导航链路接管
     2026.08 : 2026 电赛 H 题车载滚球系统
              : 三板协同 / 双核 IPC / LQG-LQI / 安全门
              : 完整完赛，测评因供电不稳未获奖并形成工程复盘
