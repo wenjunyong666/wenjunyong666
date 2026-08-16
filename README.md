@@ -226,6 +226,7 @@ timeline
   <img src="https://img.shields.io/badge/2025_全国大学生电子设计大赛-广东省二等奖-0E7490?style=for-the-badge" alt="电赛广东省二等奖" />
   <img src="https://img.shields.io/badge/2026_西门子杯自由探索赛道-华东一赛区二等奖-2563EB?style=for-the-badge" alt="西门子杯自由探索赛道华东一赛区二等奖" />
   <img src="https://img.shields.io/badge/2026_全国3D大赛数字工业设计-广东赛区特等奖-C2410C?style=for-the-badge" alt="全国三维数字化创新设计大赛广东赛区特等奖" />
+  <img src="https://img.shields.io/badge/2026_嵌入式芯片与系统设计竞赛-华南赛区二等奖-7C3AED?style=for-the-badge" alt="全国大学生嵌入式芯片与系统设计竞赛华南赛区二等奖" />
   <img src="https://img.shields.io/badge/2026_大唐杯-广东省三等奖-22C55E?style=for-the-badge" alt="大唐杯广东省三等奖" />
 </div>
 
