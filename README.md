@@ -8,7 +8,7 @@
   </a>
   <br />
   <a href="https://github.com/wenjunyong666"><img src="https://img.shields.io/badge/GitHub-wenjunyong666-181717?style=flat-square&logo=github" alt="GitHub 主页" /></a>
-  <a href="http://106.55.62.122/site/"><img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%9F%A5%E7%9C%8B%E9%A1%B9%E7%9B%AE-0E7490?style=flat-square&logo=googlechrome&logoColor=white" alt="在线作品集" /></a>
+  <a href="https://106.55.62.122/site/"><img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E4%BD%9C%E5%93%81%E9%9B%86-%E6%9F%A5%E7%9C%8B%E9%A1%B9%E7%9B%AE-0E7490?style=flat-square&logo=googlechrome&logoColor=white" alt="在线作品集" /></a>
   <a href="mailto:3245056131@qq.com"><img src="https://img.shields.io/badge/Email-3245056131%40qq.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="邮箱" /></a>
   <br />
   <img src="https://komarev.com/ghpvc/?username=wenjunyong666&style=flat-square&color=0e7490&label=%E4%B8%BB%E9%A1%B5%E8%AE%BF%E9%97%AE" alt="主页访问量" />
@@ -28,6 +28,29 @@ engineering_style: 从需求拆解到设备联调，从控制闭环到可视化�
 ```
 
 我的长期就业方向是 **机器人嵌入式**。我关注的不只是单个驱动或算法，而是把 **传感器输入、通信协议、任务调度、控制算法、执行机构和上位机** 连成可运行、可验证、可复盘的完整机器人系统。
+
+## 项目直达｜打开即看
+
+<div align="center">
+  <p><strong>先选工程方向，再进入详情页；每页都包含职责、系统链路、验证证据与代码入口。</strong></p>
+  <a href="https://106.55.62.122/site/projects/medical-rehab-arm/"><img src="https://img.shields.io/badge/01_康复机械臂-ROS2_·_CAN_·_MuJoCo-0E7490?style=for-the-badge" alt="康复机械臂项目详情" /></a>
+  <a href="https://106.55.62.122/site/projects/gongchuang-logistics-car/"><img src="https://img.shields.io/badge/02_物流小车-STM32_·_RKNN_·_FreeRTOS-14532D?style=for-the-badge" alt="物流小车项目详情" /></a>
+  <br />
+  <a href="https://106.55.62.122/site/projects/ti-2026-h-ball-control/"><img src="https://img.shields.io/badge/03_2026电赛H题-LQG/LQI_·_IPC_·_CAN-A7432D?style=for-the-badge" alt="2026 电赛 H 题项目详情" /></a>
+  <a href="https://106.55.62.122/site/projects/diansai-auto-aiming/"><img src="https://img.shields.io/badge/04_自动瞄准-PID_·_MaixCam_·_STM32-7C3AED?style=for-the-badge" alt="自动瞄准项目详情" /></a>
+  <br />
+  <a href="https://106.55.62.122/site/projects/panoramic-conference-camera/"><img src="https://img.shields.io/badge/05_全景摄像头-FPGA_·_UDP_·_OpenCV-334155?style=for-the-badge" alt="全景会议摄像头项目详情" /></a>
+  <a href="https://106.55.62.122/site/projects/iot-humidifier-console/"><img src="https://img.shields.io/badge/06_智能加湿器-ESP32--S3_·_MQTT-B45309?style=for-the-badge" alt="智能加湿器项目详情" /></a>
+  <br />
+  <a href="https://106.55.62.122/site/projects/ai-collab-platform/"><img src="https://img.shields.io/badge/07_AI合作平台-Multi--Agent_·_Next.js_·_FastAPI-4C1D95?style=for-the-badge" alt="AI 合作平台项目详情" /></a>
+</div>
+
+| 想了解什么 | 最快入口 |
+|---|---|
+| 30 秒判断岗位匹配 | [打开完整作品集首页](https://106.55.62.122/site/) |
+| 深挖源码与工程记录 | [查看全部公开仓库](https://github.com/wenjunyong666?tab=repositories) |
+| 查看实习与获奖证据 | [打开 Evidence 目录](https://github.com/wenjunyong666/wenjunyong666/tree/main/evidence) |
+| 直接联系 | [3245056131@qq.com](mailto:3245056131@qq.com) |
 
 ## 实习经历
 
@@ -273,7 +296,7 @@ timeline
 </details>
 
 <p align="center">
-  <a href="http://106.55.62.122/site/"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%AE%8C%E6%95%B4%E4%BD%9C%E5%93%81%E9%9B%86-0E7490?style=for-the-badge&logo=googlechrome&logoColor=white" alt="查看完整作品集" /></a>
+  <a href="https://106.55.62.122/site/"><img src="https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%AE%8C%E6%95%B4%E4%BD%9C%E5%93%81%E9%9B%86-0E7490?style=for-the-badge&logo=googlechrome&logoColor=white" alt="查看完整作品集" /></a>
   <a href="mailto:3245056131@qq.com"><img src="https://img.shields.io/badge/联系我-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="联系我" /></a>
 </p>
 
